@@ -16,6 +16,6 @@ services:
       - "8000:8000"
     environment:
       - DEBUG=False
-      - SECRET_KEY="django-insecure-gsd6d0y3&y(^993n@8g9dz5*i!jw=2p4$$sg$$%_(@*3f3j*n+8u"
-      - LOGIN_URL="http://localhost:8000/api/v1/users/login"
-      - LOGOUT_URL="http://localhost:8000/api/v1/users/logout"
+      - SECRET_KEY=django-insecure-gsd6d0y3&y(^993n@8g9dz5*i!jw=2p4$$sg$$%_(@*3f3j*n+8u
+      - LOGIN_URL=http://localhost:8000/api/v1/users/login
+      - LOGOUT_URL=http://localhost:8000/api/v1/users/logout
