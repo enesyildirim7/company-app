@@ -1,0 +1,110 @@
+[
+  {
+    "model": "users.user",
+    "pk": "dbfb7d05-3f67-4a43-920a-f3a106d48056",
+    "fields": {
+      "last_login": "2022-09-03T18:31:54.301Z",
+      "isim": "Admin",
+      "soyisim": "Admin",
+      "email": "admin@admin.com",
+      "password": "pbkdf2_sha256$390000$YDwV8uE7P1sInp5uM8Csy3$kwR6Ok7oN2JVSZRCLS5rv6A1hjpJMgsyACxNok8d/C8=",
+      "uyelik_tarihi": "2022-09-02T20:49:37.436Z",
+      "son_giris": "2022-09-03T13:15:12.695Z",
+      "is_admin": true,
+      "is_active": true,
+      "is_staff": true,
+      "is_superuser": true,
+      "groups": [],
+      "user_permissions": [],
+      "takip": [
+        "2bad147a-b43d-48d1-ba62-aac29ae19d5a",
+        "35c572f1-8d5e-4759-8998-49e2999a32bc",
+        "53a8dfdf-cbaf-46b5-a942-5798a1e5c598"
+      ]
+    }
+  },
+  {
+    "model": "company.company",
+    "pk": "1eb24d1b-60b6-4fc4-98ae-d827818cf72f",
+    "fields": {
+      "kurulus_adi": "AKUT",
+      "kurulus_logo": "company/logo/AKUT-logo-400x400.png",
+      "kurulus_turu": "STK",
+      "ulke": "TR",
+      "website": "https://www.akut.org.tr/",
+      "calisan_sayisi": "2000"
+    }
+  },
+  {
+    "model": "company.company",
+    "pk": "20c0d034-b74a-49e3-80de-2e4143130646",
+    "fields": {
+      "kurulus_adi": "Microsoft",
+      "kurulus_logo": "company/logo/microsoft.png",
+      "kurulus_turu": "Büyük İşletme",
+      "ulke": "US",
+      "website": "https://www.microsoft.com/tr-tr",
+      "calisan_sayisi": "163000"
+    }
+  },
+  {
+    "model": "company.company",
+    "pk": "2bad147a-b43d-48d1-ba62-aac29ae19d5a",
+    "fields": {
+      "kurulus_adi": "TOGG",
+      "kurulus_logo": "company/logo/togg.jpg",
+      "kurulus_turu": "Büyük İşletme",
+      "ulke": "TR",
+      "website": "https://www.togg.com.tr/",
+      "calisan_sayisi": "4323"
+    }
+  },
+  {
+    "model": "company.company",
+    "pk": "35c572f1-8d5e-4759-8998-49e2999a32bc",
+    "fields": {
+      "kurulus_adi": "ASELSAN",
+      "kurulus_logo": "company/logo/aselsan.png",
+      "kurulus_turu": "Büyük İşletme",
+      "ulke": "TR",
+      "website": "https://www.aselsan.com.tr/",
+      "calisan_sayisi": "8888"
+    }
+  },
+  {
+    "model": "company.company",
+    "pk": "53a8dfdf-cbaf-46b5-a942-5798a1e5c598",
+    "fields": {
+      "kurulus_adi": "Özkardeşler San. Tic. Ltd. Şti.",
+      "kurulus_logo": "company/logo/oz.png",
+      "kurulus_turu": "KOBİ",
+      "ulke": "TR",
+      "website": "https://www.ozkardesler.com/",
+      "calisan_sayisi": "26"
+    }
+  },
+  {
+    "model": "company.company",
+    "pk": "afe8e429-fdec-4620-ae2c-713c9f9920df",
+    "fields": {
+      "kurulus_adi": "Kızılay",
+      "kurulus_logo": "company/logo/kizilay.jpg",
+      "kurulus_turu": "STK",
+      "ulke": "TR",
+      "website": "https://www.kizilay.org.tr/",
+      "calisan_sayisi": "160362"
+    }
+  },
+  {
+    "model": "company.company",
+    "pk": "d9cf6c97-02a6-4864-b4c8-44b615b2d19d",
+    "fields": {
+      "kurulus_adi": "Google",
+      "kurulus_logo": "company/logo/google.png",
+      "kurulus_turu": "Büyük İşletme",
+      "ulke": "US",
+      "website": "https://www.google.com/",
+      "calisan_sayisi": "188899"
+    }
+  }
+]

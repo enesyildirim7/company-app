@@ -1,0 +1,21 @@
+version: "3.9"
+
+services:
+  web:
+    build: .
+    command: >
+      bash -c "
+              python manage.py makemigrations && 
+              python manage.py migrate && 
+              python manage.py loaddata initialData.json &&
+              python manage.py runserver 0.0.0.0:8000
+              "
+    volumes:
+      - .:/code
+    ports:
+      - "8000:8000"
+    environment:
+      - DEBUG=False
+      - SECRET_KEY="django-insecure-gsd6d0y3&y(^993n@8g9dz5*i!jw=2p4$$sg$$%_(@*3f3j*n+8u"
+      - LOGIN_URL="http://localhost:8000/api/v1/users/login"
+      - LOGOUT_URL="http://localhost:8000/api/v1/users/logout"
