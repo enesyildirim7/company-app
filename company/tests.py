@@ -92,6 +92,7 @@ class CompanyTestCase(APITestCase):
 
         response = self.client.get(self.list)
         self.assertEqual(response.status_code, 200)
+        self.assertEqual(len(response.data), 5)
 
     
     def test_get_company_info(self):
